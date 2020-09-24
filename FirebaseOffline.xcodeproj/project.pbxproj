@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08A1B196E0094608F7BE1A68 /* Pods_FirebaseOffline_FirebaseOfflineUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 321E76BB6234A988B3BC5145 /* Pods_FirebaseOffline_FirebaseOfflineUITests.framework */; };
+		32A36CB54B7EC2706A1CA955 /* Pods_FirebaseOfflineTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB6475BA3B7C255E9206EAE9 /* Pods_FirebaseOfflineTests.framework */; };
+		3C1FB2CACAD0B2965376DC4E /* Pods_FirebaseOffline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0F382E8AC6E725EA8D97E0F /* Pods_FirebaseOffline.framework */; };
+		E157C5C0251CC03C00ED04DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E157C5BF251CC03C00ED04DF /* AppDelegate.swift */; };
+		E157C5C2251CC03C00ED04DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E157C5C1251CC03C00ED04DF /* SceneDelegate.swift */; };
+		E157C5C4251CC03C00ED04DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E157C5C3251CC03C00ED04DF /* ViewController.swift */; };
+		E157C5C7251CC03C00ED04DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E157C5C5251CC03C00ED04DF /* Main.storyboard */; };
+		E157C5C9251CC03F00ED04DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E157C5C8251CC03F00ED04DF /* Assets.xcassets */; };
+		E157C5CC251CC03F00ED04DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E157C5CA251CC03F00ED04DF /* LaunchScreen.storyboard */; };
+		E157C5D7251CC03F00ED04DF /* FirebaseOfflineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E157C5D6251CC03F00ED04DF /* FirebaseOfflineTests.swift */; };
+		E157C5E2251CC03F00ED04DF /* FirebaseOfflineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E157C5E1251CC03F00ED04DF /* FirebaseOfflineUITests.swift */; };
+		E157C613251CC74500ED04DF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E157C612251CC74400ED04DF /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E157C5D3251CC03F00ED04DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E157C5B4251CC03C00ED04DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E157C5BB251CC03C00ED04DF;
+			remoteInfo = FirebaseOffline;
+		};
+		E157C5DE251CC03F00ED04DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E157C5B4251CC03C00ED04DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E157C5BB251CC03C00ED04DF;
+			remoteInfo = FirebaseOffline;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F530171D7DD28BAE0D6CE4A /* Pods-FirebaseOffline-FirebaseOfflineUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseOffline-FirebaseOfflineUITests.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseOffline-FirebaseOfflineUITests/Pods-FirebaseOffline-FirebaseOfflineUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1DF3925448E86AA897FAF9D5 /* Pods-FirebaseOfflineTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseOfflineTests.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseOfflineTests/Pods-FirebaseOfflineTests.debug.xcconfig"; sourceTree = "<group>"; };
+		321E76BB6234A988B3BC5145 /* Pods_FirebaseOffline_FirebaseOfflineUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseOffline_FirebaseOfflineUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6763E1AC30250EB6028359B6 /* Pods-FirebaseOffline.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseOffline.release.xcconfig"; path = "Target Support Files/Pods-FirebaseOffline/Pods-FirebaseOffline.release.xcconfig"; sourceTree = "<group>"; };
+		72EF0B880856A15B8C0B06CF /* Pods-FirebaseOffline-FirebaseOfflineUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseOffline-FirebaseOfflineUITests.release.xcconfig"; path = "Target Support Files/Pods-FirebaseOffline-FirebaseOfflineUITests/Pods-FirebaseOffline-FirebaseOfflineUITests.release.xcconfig"; sourceTree = "<group>"; };
+		750506400B3AB0758BA57422 /* Pods-FirebaseOfflineTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseOfflineTests.release.xcconfig"; path = "Target Support Files/Pods-FirebaseOfflineTests/Pods-FirebaseOfflineTests.release.xcconfig"; sourceTree = "<group>"; };
+		A0F382E8AC6E725EA8D97E0F /* Pods_FirebaseOffline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseOffline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7A59CB6009B77D02859C16C /* Pods-FirebaseOffline.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseOffline.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseOffline/Pods-FirebaseOffline.debug.xcconfig"; sourceTree = "<group>"; };
+		E157C5BC251CC03C00ED04DF /* FirebaseOffline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseOffline.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E157C5BF251CC03C00ED04DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E157C5C1251CC03C00ED04DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E157C5C3251CC03C00ED04DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E157C5C6251CC03C00ED04DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E157C5C8251CC03F00ED04DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E157C5CB251CC03F00ED04DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E157C5CD251CC03F00ED04DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E157C5D2251CC03F00ED04DF /* FirebaseOfflineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebaseOfflineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E157C5D6251CC03F00ED04DF /* FirebaseOfflineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseOfflineTests.swift; sourceTree = "<group>"; };
+		E157C5D8251CC03F00ED04DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E157C5DD251CC03F00ED04DF /* FirebaseOfflineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebaseOfflineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E157C5E1251CC03F00ED04DF /* FirebaseOfflineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseOfflineUITests.swift; sourceTree = "<group>"; };
+		E157C5E3251CC03F00ED04DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E157C612251CC74400ED04DF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EB6475BA3B7C255E9206EAE9 /* Pods_FirebaseOfflineTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseOfflineTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E157C5B9251CC03C00ED04DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C1FB2CACAD0B2965376DC4E /* Pods_FirebaseOffline.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E157C5CF251CC03F00ED04DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A36CB54B7EC2706A1CA955 /* Pods_FirebaseOfflineTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E157C5DA251CC03F00ED04DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A1B196E0094608F7BE1A68 /* Pods_FirebaseOffline_FirebaseOfflineUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C6739CB5E4BA5D6B7788499 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0F382E8AC6E725EA8D97E0F /* Pods_FirebaseOffline.framework */,
+				321E76BB6234A988B3BC5145 /* Pods_FirebaseOffline_FirebaseOfflineUITests.framework */,
+				EB6475BA3B7C255E9206EAE9 /* Pods_FirebaseOfflineTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA51A0F402C44DBACB7DEB7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7A59CB6009B77D02859C16C /* Pods-FirebaseOffline.debug.xcconfig */,
+				6763E1AC30250EB6028359B6 /* Pods-FirebaseOffline.release.xcconfig */,
+				0F530171D7DD28BAE0D6CE4A /* Pods-FirebaseOffline-FirebaseOfflineUITests.debug.xcconfig */,
+				72EF0B880856A15B8C0B06CF /* Pods-FirebaseOffline-FirebaseOfflineUITests.release.xcconfig */,
+				1DF3925448E86AA897FAF9D5 /* Pods-FirebaseOfflineTests.debug.xcconfig */,
+				750506400B3AB0758BA57422 /* Pods-FirebaseOfflineTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E157C5B3251CC03C00ED04DF = {
+			isa = PBXGroup;
+			children = (
+				E157C5BE251CC03C00ED04DF /* FirebaseOffline */,
+				E157C5D5251CC03F00ED04DF /* FirebaseOfflineTests */,
+				E157C5E0251CC03F00ED04DF /* FirebaseOfflineUITests */,
+				E157C5BD251CC03C00ED04DF /* Products */,
+				DA51A0F402C44DBACB7DEB7E /* Pods */,
+				3C6739CB5E4BA5D6B7788499 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E157C5BD251CC03C00ED04DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E157C5BC251CC03C00ED04DF /* FirebaseOffline.app */,
+				E157C5D2251CC03F00ED04DF /* FirebaseOfflineTests.xctest */,
+				E157C5DD251CC03F00ED04DF /* FirebaseOfflineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E157C5BE251CC03C00ED04DF /* FirebaseOffline */ = {
+			isa = PBXGroup;
+			children = (
+				E157C612251CC74400ED04DF /* GoogleService-Info.plist */,
+				E157C5BF251CC03C00ED04DF /* AppDelegate.swift */,
+				E157C5C1251CC03C00ED04DF /* SceneDelegate.swift */,
+				E157C5C3251CC03C00ED04DF /* ViewController.swift */,
+				E157C5C5251CC03C00ED04DF /* Main.storyboard */,
+				E157C5C8251CC03F00ED04DF /* Assets.xcassets */,
+				E157C5CA251CC03F00ED04DF /* LaunchScreen.storyboard */,
+				E157C5CD251CC03F00ED04DF /* Info.plist */,
+			);
+			path = FirebaseOffline;
+			sourceTree = "<group>";
+		};
+		E157C5D5251CC03F00ED04DF /* FirebaseOfflineTests */ = {
+			isa = PBXGroup;
+			children = (
+				E157C5D6251CC03F00ED04DF /* FirebaseOfflineTests.swift */,
+				E157C5D8251CC03F00ED04DF /* Info.plist */,
+			);
+			path = FirebaseOfflineTests;
+			sourceTree = "<group>";
+		};
+		E157C5E0251CC03F00ED04DF /* FirebaseOfflineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E157C5E1251CC03F00ED04DF /* FirebaseOfflineUITests.swift */,
+				E157C5E3251CC03F00ED04DF /* Info.plist */,
+			);
+			path = FirebaseOfflineUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E157C5BB251CC03C00ED04DF /* FirebaseOffline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E157C5E6251CC03F00ED04DF /* Build configuration list for PBXNativeTarget "FirebaseOffline" */;
+			buildPhases = (
+				8A81F5C544D781835843BA15 /* [CP] Check Pods Manifest.lock */,
+				E157C5B8251CC03C00ED04DF /* Sources */,
+				E157C5B9251CC03C00ED04DF /* Frameworks */,
+				E157C5BA251CC03C00ED04DF /* Resources */,
+				1776DF8EF17E2D6304C28BC1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirebaseOffline;
+			productName = FirebaseOffline;
+			productReference = E157C5BC251CC03C00ED04DF /* FirebaseOffline.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E157C5D1251CC03F00ED04DF /* FirebaseOfflineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E157C5E9251CC03F00ED04DF /* Build configuration list for PBXNativeTarget "FirebaseOfflineTests" */;
+			buildPhases = (
+				2F45B575B101694677105263 /* [CP] Check Pods Manifest.lock */,
+				E157C5CE251CC03F00ED04DF /* Sources */,
+				E157C5CF251CC03F00ED04DF /* Frameworks */,
+				E157C5D0251CC03F00ED04DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E157C5D4251CC03F00ED04DF /* PBXTargetDependency */,
+			);
+			name = FirebaseOfflineTests;
+			productName = FirebaseOfflineTests;
+			productReference = E157C5D2251CC03F00ED04DF /* FirebaseOfflineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E157C5DC251CC03F00ED04DF /* FirebaseOfflineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E157C5EC251CC03F00ED04DF /* Build configuration list for PBXNativeTarget "FirebaseOfflineUITests" */;
+			buildPhases = (
+				C6529D08E0785E602B1A1397 /* [CP] Check Pods Manifest.lock */,
+				E157C5D9251CC03F00ED04DF /* Sources */,
+				E157C5DA251CC03F00ED04DF /* Frameworks */,
+				E157C5DB251CC03F00ED04DF /* Resources */,
+				EA5560444B4FD57151ACE3B4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E157C5DF251CC03F00ED04DF /* PBXTargetDependency */,
+			);
+			name = FirebaseOfflineUITests;
+			productName = FirebaseOfflineUITests;
+			productReference = E157C5DD251CC03F00ED04DF /* FirebaseOfflineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E157C5B4251CC03C00ED04DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					E157C5BB251CC03C00ED04DF = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					E157C5D1251CC03F00ED04DF = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = E157C5BB251CC03C00ED04DF;
+					};
+					E157C5DC251CC03F00ED04DF = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = E157C5BB251CC03C00ED04DF;
+					};
+				};
+			};
+			buildConfigurationList = E157C5B7251CC03C00ED04DF /* Build configuration list for PBXProject "FirebaseOffline" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E157C5B3251CC03C00ED04DF;
+			productRefGroup = E157C5BD251CC03C00ED04DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E157C5BB251CC03C00ED04DF /* FirebaseOffline */,
+				E157C5D1251CC03F00ED04DF /* FirebaseOfflineTests */,
+				E157C5DC251CC03F00ED04DF /* FirebaseOfflineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E157C5BA251CC03C00ED04DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E157C5CC251CC03F00ED04DF /* LaunchScreen.storyboard in Resources */,
+				E157C613251CC74500ED04DF /* GoogleService-Info.plist in Resources */,
+				E157C5C9251CC03F00ED04DF /* Assets.xcassets in Resources */,
+				E157C5C7251CC03C00ED04DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E157C5D0251CC03F00ED04DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E157C5DB251CC03F00ED04DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1776DF8EF17E2D6304C28BC1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebaseOffline/Pods-FirebaseOffline-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebaseOffline/Pods-FirebaseOffline-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FirebaseOffline/Pods-FirebaseOffline-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F45B575B101694677105263 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirebaseOfflineTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A81F5C544D781835843BA15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirebaseOffline-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6529D08E0785E602B1A1397 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirebaseOffline-FirebaseOfflineUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA5560444B4FD57151ACE3B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebaseOffline-FirebaseOfflineUITests/Pods-FirebaseOffline-FirebaseOfflineUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebaseOffline-FirebaseOfflineUITests/Pods-FirebaseOffline-FirebaseOfflineUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FirebaseOffline-FirebaseOfflineUITests/Pods-FirebaseOffline-FirebaseOfflineUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E157C5B8251CC03C00ED04DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E157C5C4251CC03C00ED04DF /* ViewController.swift in Sources */,
+				E157C5C0251CC03C00ED04DF /* AppDelegate.swift in Sources */,
+				E157C5C2251CC03C00ED04DF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E157C5CE251CC03F00ED04DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E157C5D7251CC03F00ED04DF /* FirebaseOfflineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E157C5D9251CC03F00ED04DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E157C5E2251CC03F00ED04DF /* FirebaseOfflineUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E157C5D4251CC03F00ED04DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E157C5BB251CC03C00ED04DF /* FirebaseOffline */;
+			targetProxy = E157C5D3251CC03F00ED04DF /* PBXContainerItemProxy */;
+		};
+		E157C5DF251CC03F00ED04DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E157C5BB251CC03C00ED04DF /* FirebaseOffline */;
+			targetProxy = E157C5DE251CC03F00ED04DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E157C5C5251CC03C00ED04DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E157C5C6251CC03C00ED04DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E157C5CA251CC03F00ED04DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E157C5CB251CC03F00ED04DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E157C5E4251CC03F00ED04DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E157C5E5251CC03F00ED04DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E157C5E7251CC03F00ED04DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7A59CB6009B77D02859C16C /* Pods-FirebaseOffline.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S7QCGMNJX5;
+				INFOPLIST_FILE = FirebaseOffline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zensar.portal.FirebaseOffline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E157C5E8251CC03F00ED04DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6763E1AC30250EB6028359B6 /* Pods-FirebaseOffline.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S7QCGMNJX5;
+				INFOPLIST_FILE = FirebaseOffline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zensar.portal.FirebaseOffline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E157C5EA251CC03F00ED04DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DF3925448E86AA897FAF9D5 /* Pods-FirebaseOfflineTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S7QCGMNJX5;
+				INFOPLIST_FILE = FirebaseOfflineTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zensar.portal.FirebaseOfflineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirebaseOffline.app/FirebaseOffline";
+			};
+			name = Debug;
+		};
+		E157C5EB251CC03F00ED04DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 750506400B3AB0758BA57422 /* Pods-FirebaseOfflineTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S7QCGMNJX5;
+				INFOPLIST_FILE = FirebaseOfflineTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zensar.portal.FirebaseOfflineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirebaseOffline.app/FirebaseOffline";
+			};
+			name = Release;
+		};
+		E157C5ED251CC03F00ED04DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F530171D7DD28BAE0D6CE4A /* Pods-FirebaseOffline-FirebaseOfflineUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S7QCGMNJX5;
+				INFOPLIST_FILE = FirebaseOfflineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zensar.portal.FirebaseOfflineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FirebaseOffline;
+			};
+			name = Debug;
+		};
+		E157C5EE251CC03F00ED04DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72EF0B880856A15B8C0B06CF /* Pods-FirebaseOffline-FirebaseOfflineUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S7QCGMNJX5;
+				INFOPLIST_FILE = FirebaseOfflineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zensar.portal.FirebaseOfflineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FirebaseOffline;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E157C5B7251CC03C00ED04DF /* Build configuration list for PBXProject "FirebaseOffline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E157C5E4251CC03F00ED04DF /* Debug */,
+				E157C5E5251CC03F00ED04DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E157C5E6251CC03F00ED04DF /* Build configuration list for PBXNativeTarget "FirebaseOffline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E157C5E7251CC03F00ED04DF /* Debug */,
+				E157C5E8251CC03F00ED04DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E157C5E9251CC03F00ED04DF /* Build configuration list for PBXNativeTarget "FirebaseOfflineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E157C5EA251CC03F00ED04DF /* Debug */,
+				E157C5EB251CC03F00ED04DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E157C5EC251CC03F00ED04DF /* Build configuration list for PBXNativeTarget "FirebaseOfflineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E157C5ED251CC03F00ED04DF /* Debug */,
+				E157C5EE251CC03F00ED04DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E157C5B4251CC03C00ED04DF /* Project object */;
+}

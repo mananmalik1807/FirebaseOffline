@@ -1,0 +1,6 @@
+framework module Pods_FirebaseOffline {
+  umbrella header "Pods-FirebaseOffline-umbrella.h"
+
+  export *
+  module * { export * }
+}

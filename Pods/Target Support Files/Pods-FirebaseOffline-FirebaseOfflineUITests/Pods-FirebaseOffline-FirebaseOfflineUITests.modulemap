@@ -1,0 +1,6 @@
+framework module Pods_FirebaseOffline_FirebaseOfflineUITests {
+  umbrella header "Pods-FirebaseOffline-FirebaseOfflineUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
